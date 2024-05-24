@@ -4,8 +4,7 @@ print(("Peter's B-day:"), (my_dict['Peter']))
 print(("Maria's B-day:"), (my_dict.get('Maria')))
 my_dict['Billie'] = 1990
 my_dict.update({'Craig': 2010})
-del my_dict['Peter']
-print(my_dict.get('Peter'))
+print(('Deleted B-day:'), my_dict.pop('Peter'))
 print(('Modified B-Day dictionary:'), (my_dict))
 
 my_set = {1, 2, 3, 3, 2, 1, 'Cola', True, False, False}
